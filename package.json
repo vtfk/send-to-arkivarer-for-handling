@@ -1,0 +1,38 @@
+{
+  "name": "send-to-arkivarer-for-handling",
+  "version": "1.0.0",
+  "description": "Easy tool for sending docs to manual archiving",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "standard": "^16.0.4"
+  },
+  "scripts": {
+    "test": "jest --verbose && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtfk/send-to-arkivarer-for-handling.git"
+  },
+  "keywords": [
+    "archive"
+  ],
+  "author": "jorgtho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtfk/send-to-arkivarer-for-handling/issues"
+  },
+  "homepage": "https://github.com/vtfk/send-to-arkivarer-for-handling#readme",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
